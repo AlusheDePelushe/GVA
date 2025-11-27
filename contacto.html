@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - GVA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>GVA</h1>
+                        <span>Guardianas de la Vida Animal</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="mision.html">Misión</a></li>
+                    <li><a href="vision.html">Visión</a></li>
+                    <li><a href="politicas.html">Políticas de Calidad</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="contacto.html" class="active">Contáctanos</a></li>
+                    <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    <li><a href="login.html" class="login-btn">Iniciar Sesión</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <div class="container">
+            <div class="page-header">
+                <h1>Contáctanos</h1>
+                <p>Estamos aquí para ayudarte. ¡Escríbenos!</p>
+            </div>
+            
+            <section class="contact-content">
+                <div class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="var(--primary-green)"/>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <h3>Email</h3>
+                                <p>info@gva.org</p>
+                                <p>adopciones@gva.org</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.94C17.55 15.31 18.76 15.51 20 15.51C20.55 15.51 21 15.96 21 16.51V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z" fill="var(--primary-green)"/>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <h3>Teléfono</h3>
+                                <p>+52 33 1234 5678</p>
+                                <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="var(--primary-green)"/>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <h3>Dirección</h3>
+                                <p>Av. Principal #123, Colonia Centro</p>
+                                <p>Zapopan, Jalisco, México</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="emergency-contact">
+                        <h3>📞 Contacto de Emergencia</h3>
+                        <p>Para reportar casos de maltrato animal o animales en situación de riesgo inminente:</p>
+                        <div class="emergency-number">
+                            <span class="number">+52 33 9876 5432</span>
+                            <span class="note">Disponible las 24 horas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre Completo *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Asunto *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="adopcion">Adopción de Animales</option>
+                                <option value="donacion">Donaciones</option>
+                                <option value="voluntariado">Voluntariado</option>
+                                <option value="reporte">Reporte de Maltrato</option>
+                                <option value="servicios">Servicios Veterinarios</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Describe tu consulta o situación..."></textarea>
+                        </div>
+                        
+                        <div class="form-options">
+                            <label class="checkbox">
+                                <input type="checkbox" name="newsletter" checked>
+                                <span class="checkmark"></span>
+                                Suscribirme al boletín informativo de GVA
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn primary full-width">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="quick-actions">
+                <h2>Acciones Rápidas</h2>
+                <div class="actions-grid">
+                    <div class="action-card">
+                        <h3>🐕 Reportar Animal en Riesgo</h3>
+                        <p>¿Viste un animal en situación de maltrato o abandono? Repórtalo inmediatamente.</p>
+                        <a href="#" class="btn secondary">Reportar Ahora</a>
+                    </div>
+                    
+                    <div class="action-card">
+                        <h3>❤️ Hacer una Donación</h3>
+                        <p>Tu apoyo económico nos ayuda a continuar con nuestra labor de rescate y protección.</p>
+                        <a href="#" class="btn secondary">Donar Ahora</a>
+                    </div>
+                    
+                    <div class="action-card">
+                        <h3>🤝 Ser Voluntario</h3>
+                        <p>Únete a nuestro equipo de voluntarios y ayuda directamente a los animales necesitados.</p>
+                        <a href="#" class="btn secondary">Registrarse</a>
+                    </div>
+                    
+                    <div class="action-card">
+                        <h3>🏠 Adoptar</h3>
+                        <p>Conoce a nuestros animales disponibles para adopción y dales un hogar lleno de amor.</p>
+                        <a href="catalogo.html" class="btn secondary">Ver Animales</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GVA</h3>
+                    <p>Guardianas de la Vida Animal</p>
+                    <p>Asociación Civil comprometida con el bienestar animal</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="mision.html">Misión</a></li>
+                        <li><a href="vision.html">Visión</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: info@gva.org</p>
+                    <p>Teléfono: +52 33 1234 5678</p>
+                    <p>Zona Metropolitana de Guadalajara</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GVA - Guardianas de la Vida Animal. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - GVA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>GVA</h1>
+                        <span>Guardianas de la Vida Animal</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="mision.html">Misión</a></li>
+                    <li><a href="vision.html">Visión</a></li>
+                    <li><a href="politicas.html">Políticas de Calidad</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                    <li><a href="catalogo.html" class="active">Catálogo</a></li>
+                    <li><a href="contacto.html">Contáctanos</a></li>
+                    <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    <li><a href="login.html" class="login-btn">Iniciar Sesión</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <div class="container">
+            <div class="page-header">
+                <h1>Catálogo de Servicios</h1>
+                <p>Conoce todos los servicios que ofrecemos para el bienestar animal</p>
+            </div>
+            
+            <section class="catalog-intro">
+                <div class="intro-content">
+                    <h2>Servicios Profesionales para el Bienestar Animal</h2>
+                    <p>En GVA ofrecemos una amplia gama de servicios diseñados para proteger, rehabilitar y mejorar la calidad de vida de los animales. Cada servicio está respaldado por nuestro compromiso con la excelencia y el amor por todas las especies.</p>
+                </div>
+            </section>
+
+            <section class="services-catalog">
+                <div class="catalog-filters">
+                    <h3>Filtrar por Categoría</h3>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">Todos</button>
+                        <button class="filter-btn" data-filter="rescate">Rescate</button>
+                        <button class="filter-btn" data-filter="salud">Salud</button>
+                        <button class="filter-btn" data-filter="educacion">Educación</button>
+                        <button class="filter-btn" data-filter="adopcion">Adopción</button>
+                        <button class="filter-btn" data-filter="terapia">Terapia</button>
+                    </div>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Servicio 1 -->
+                    <div class="service-card" data-category="rescate salud">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/300x200" alt="Rescate de Emergencia">
+                        </div>
+                        <div class="service-content">
+                            <h3>Rescate de Emergencia</h3>
+                            <p class="service-description">Atención inmediata las 24 horas para animales en situación de riesgo, maltrato o abandono.</p>
+                            <div class="service-features">
+                                <span class="feature">Respuesta inmediata</span>
+                                <span class="feature">Transporte especializado</span>
+                                <span class="feature">Equipo de rescate</span>
+                            </div>
+                            <div class="service-price">
+                                <span class="price">Gratuito</span>
+                                <span class="note">*Donaciones voluntarias</span>
+                            </div>
+                            <button class="btn primary">Solicitar Servicio</button>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 2 -->
+                    <div class="service-card" data-category="salud">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/300x200" alt="Atención Veterinaria">
+                        </div>
+                        <div class="service-content">
+                            <h3>Atención Veterinaria Integral</h3>
+                            <p class="service-description">Consultas, vacunación, desparasitación y tratamientos médicos para animales rescatados.</p>
+                            <div class="service-features">
+                                <span class="feature">Consultas generales</span>
+                                <span class="feature">Vacunación</span>
+                                <span class="feature">Cirugías</span>
+                            </div>
+                            <div class="service-price">
+                                <span class="price">Desde $200 MXN</span>
+                                <span class="note">*Precios especiales para adopciones</span>
+                            </div>
+                            <button class="btn primary">Agendar Cita</button>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 3 -->
+                    <div class="service-card" data-category="educacion">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/300x200" alt="Talleres Educativos">
+                        </div>
+                        <div class="service-content">
+                            <h3>Talleres Educativos</h3>
+                            <p class="service-description">Programas de concientización sobre tenencia responsable y bienestar animal para comunidades y escuelas.</p>
+                            <div class="service-features">
+                                <span class="feature">Material didáctico</span>
+                                <span class="feature">Expertos en etología</span>
+                                <span class="feature">Actividades prácticas</span>
+                            </div>
+                            <div class="service-price">
+                                <span class="price">Gratuito</span>
+                                <span class="note">Para instituciones educativas</span>
+                            </div>
+                            <button class="btn primary">Solicitar Taller</button>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 4 -->
+                    <div class="service-card" data-category="adopcion">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/300x200" alt="Proceso de Adopción">
+                        </div>
+                        <div class="service-content">
+                            <h3>Adopción Responsable</h3>
+                            <p class="service-description">Proceso completo de adopción con seguimiento y apoyo post-adopción para garantizar el bienestar del animal.</p>
+                            <div class="service-features">
+                                <span class="feature">Evaluación del adoptante</span>
+                                <span class="feature">Seguimiento continuo</span>
+                                <span class="feature">Contrato de adopción</span>
+                            </div>
+                            <div class="service-price">
+                                <span class="price">Donación sugerida $500 MXN</span>
+                                <span class="note">Incluye esterilización y vacunas</span>
+                            </div>
+                            <button class="btn primary">Ver Animales Disponibles</button>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 5 -->
+                    <div class="service-card" data-category="terapia salud">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/300x200" alt="Terapia Asistida">
+                        </div>
+                        <div class="service-content">
+                            <h3>Terapia Asistida con Animales</h3>
+                            <p class="service-description">Programas de intervención terapéutica utilizando animales especialmente entrenados para apoyo emocional.</p>
+                            <div class="service-features">
+                                <span class="feature">Perros de terapia</span>
+                                <span class="feature">Sesiones personalizadas</span>
+                                <span class="feature">Resultados medibles</span>
+                            </div>
+                            <div class="service-price">
+                                <span class="price">Consultar precios</span>
+                                <span class="note">Según tipo de terapia y duración</span>
+                            </div>
+                            <button class="btn primary">Más Información</button>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 6 -->
+                    <div class="service-card" data-category="salud">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/300x200" alt="Esterilización">
+                        </div>
+                        <div class="service-content">
+                            <h3>Campañas de Esterilización</h3>
+                            <p class="service-description">Programas masivos de esterilización para control poblacional y prevención del abandono animal.</p>
+                            <div class="service-features">
+                                <span class="feature">Precios accesibles</span>
+                                <span class="feature">Múltiples ubicaciones</span>
+                                <span class="feature">Post-operatorio incluido</span>
+                            </div>
+                            <div class="service-price">
+                                <span class="price">Desde $150 MXN</span>
+                                <span class="note">*Precios comunitarios especiales</span>
+                            </div>
+                            <button class="btn primary">Ver Calendario</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="catalog-cta">
+                <div class="cta-content">
+                    <h2>¿No encuentras lo que necesitas?</h2>
+                    <p>Contáctanos y te ayudaremos a encontrar la solución perfecta para las necesidades de bienestar animal.</p>
+                    <div class="cta-buttons">
+                        <a href="contacto.html" class="btn primary">Contáctanos</a>
+                        <a href="faq.html" class="btn secondary">Preguntas Frecuentes</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GVA</h3>
+                    <p>Guardianas de la Vida Animal</p>
+                    <p>Asociación Civil comprometida con el bienestar animal</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="mision.html">Misión</a></li>
+                        <li><a href="vision.html">Visión</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: info@gva.org</p>
+                    <p>Teléfono: +52 33 1234 5678</p>
+                    <p>Zona Metropolitana de Guadalajara</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GVA - Guardianas de la Vida Animal. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

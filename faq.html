@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - GVA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>GVA</h1>
+                        <span>Guardianas de la Vida Animal</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="mision.html">Misión</a></li>
+                    <li><a href="vision.html">Visión</a></li>
+                    <li><a href="politicas.html">Políticas de Calidad</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="contacto.html">Contáctanos</a></li>
+                    <li><a href="faq.html" class="active">Preguntas Frecuentes</a></li>
+                    <li><a href="login.html" class="login-btn">Iniciar Sesión</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <div class="container">
+            <div class="page-header">
+                <h1>Preguntas Frecuentes</h1>
+                <p>Encuentra respuestas a las preguntas más comunes sobre GVA</p>
+            </div>
+            
+            <section class="faq-content">
+                <div class="faq-search">
+                    <input type="text" id="faqSearch" placeholder="Buscar en preguntas frecuentes...">
+                    <button type="button" class="search-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="faq-categories">
+                    <h3>Categorías</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn active" data-category="all">Todas</button>
+                        <button class="category-btn" data-category="adopcion">Adopción</button>
+                        <button class="category-btn" data-category="donaciones">Donaciones</button>
+                        <button class="category-btn" data-category="voluntariado">Voluntariado</button>
+                        <button class="category-btn" data-category="servicios">Servicios</button>
+                        <button class="category-btn" data-category="general">General</button>
+                    </div>
+                </div>
+
+                <div class="faq-accordion">
+                    <!-- Pregunta 1 -->
+                    <div class="faq-item" data-categories="adopcion">
+                        <div class="faq-question">
+                            <h3>¿Cuáles son los requisitos para adoptar un animal de GVA?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Los requisitos básicos para adoptar incluyen:</p>
+                            <ul>
+                                <li>Ser mayor de 18 años</li>
+                                <li>Identificación oficial vigente</li>
+                                <li>Comprobante de domicilio</li>
+                                <li>Firmar contrato de adopción responsable</li>
+                                <li>Compromiso de esterilización (si aplica)</li>
+                                <li>Entrevista con nuestro equipo de adopciones</li>
+                            </ul>
+                            <p>Además, realizamos una visita al hogar para garantizar que el animal tendrá un entorno adecuado y seguro.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 2 -->
+                    <div class="faq-item" data-categories="adopcion servicios">
+                        <div class="faq-question">
+                            <h3>¿Qué incluye el proceso de adopción?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Nuestro proceso de adopción incluye:</p>
+                            <ol>
+                                <li><strong>Evaluación inicial:</strong> Entrevista para conocer tus expectativas y experiencia</li>
+                                <li><strong>Conocimiento del animal:</strong> Presentación con el animal que deseas adoptar</li>
+                                <li><strong>Visita al hogar:</strong> Verificación de las condiciones de vida</li>
+                                <li><strong>Firmar contrato:</strong> Compromiso de cuidado responsable</li>
+                                <li><strong>Entrega del animal:</strong> Con todos sus documentos médicos</li>
+                                <li><strong>Seguimiento:</strong> Visitas de seguimiento durante los primeros 3 meses</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 3 -->
+                    <div class="faq-item" data-categories="donaciones">
+                        <div class="faq-question">
+                            <h3>¿Qué tipo de donaciones aceptan y cómo puedo donar?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Aceptamos diferentes tipos de donaciones:</p>
+                            
+                            <h4>Donaciones en Efectivo:</h4>
+                            <ul>
+                                <li>Transferencia bancaria</li>
+                                <li>Depósito en cuenta</li>
+                                <li>Donaciones en línea a través de nuestra página</li>
+                                <li>Efectivo en nuestras instalaciones</li>
+                            </ul>
+                            
+                            <h4>Donaciones en Especie:</h4>
+                            <ul>
+                                <li>Alimento para perros y gatos</li>
+                                <li>Medicamentos veterinarios</li>
+                                <li>Cobijas, camas y juguetes</li>
+                                <li>Material de limpieza</li>
+                                <li>Material médico (gasas, vendas, etc.)</li>
+                            </ul>
+                            
+                            <p>Todas las donaciones son deducibles de impuestos y emitimos recibos oficiales.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 4 -->
+                    <div class="faq-item" data-categories="voluntariado">
+                        <div class="faq-question">
+                            <h3>¿Cómo puedo ser voluntario en GVA?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Para ser voluntario sigue estos pasos:</p>
+                            <ol>
+                                <li>Completa el formulario de registro en línea o en nuestras instalaciones</li>
+                                <li>Asiste a la sesión informativa sobre GVA</li>
+                                <li>Participa en el entrenamiento básico de voluntariado</li>
+                                <li>Firma el acuerdo de voluntariado</li>
+                                <li>Comienza a ayudar en las áreas que mejor se adapten a tus habilidades</li>
+                            </ol>
+                            
+                            <p><strong>Áreas de voluntariado disponibles:</strong></p>
+                            <ul>
+                                <li>Cuidado directo de animales</li>
+                                <li>Limpieza y mantenimiento de instalaciones</li>
+                                <li>Apoyo en eventos y campañas</li>
+                                <li>Transporte de animales</li>
+                                <li>Administración y logística</li>
+                                <li>Educación y concientización</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 5 -->
+                    <div class="faq-item" data-categories="servicios">
+                        <div class="faq-question">
+                            <h3>¿Ofrecen servicios veterinarios al público en general?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sí, ofrecemos servicios veterinarios al público con precios accesibles:</p>
+                            
+                            <h4>Servicios Disponibles:</h4>
+                            <ul>
+                                <li>Consultas generales: $200 MXN</li>
+                                <li>Vacunación: Desde $150 MXN</li>
+                                <li>Desparasitación: Desde $100 MXN</li>
+                                <li>Esterilización: Desde $400 MXN</li>
+                                <li>Cirugías menores: Consultar precios</li>
+                            </ul>
+                            
+                            <p><strong>Nota importante:</strong> Los recursos generados por estos servicios se reinvierten directamente en nuestros programas de rescate y rehabilitación de animales en situación de calle.</p>
+                            
+                            <p>Para agendar una cita, puedes llamarnos al +52 33 1234 5678 o visitar nuestras instalaciones durante horario de atención.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 6 -->
+                    <div class="faq-item" data-categories="general">
+                        <div class="faq-question">
+                            <h3>¿Qué hago si encuentro un animal en situación de maltrato o abandono?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Si encuentras un animal en situación de riesgo, sigue estos pasos:</p>
+                            
+                            <h4>Para Emergencias Inmediatas:</h4>
+                            <ol>
+                                <li>Llama a nuestra línea de emergencia: +52 33 9876 5432</li>
+                                <li>Proporciona la ubicación exacta</li>
+                                <li>Describe la situación y condición del animal</li>
+                                <li>Si es seguro, permanece en el lugar hasta que llegue nuestro equipo</li>
+                            </ol>
+                            
+                            <h4>Si el animal necesita rescate pero no es una emergencia:</h4>
+                            <ul>
+                                <li>Comunícate durante horario de atención al +52 33 1234 5678</li>
+                                <li>Envía fotos y detalles a rescates@gva.org</li>
+                                <li>Si puedes transportarlo de manera segura, llévalo a nuestras instalaciones</li>
+                            </ul>
+                            
+                            <p><strong>Importante:</strong> Nunca pongas en riesgo tu seguridad o la de otros al intentar rescatar un animal.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 7 -->
+                    <div class="faq-item" data-categories="donaciones general">
+                        <div class="faq-question">
+                            <h3>¿Cómo se utilizan los fondos recaudados por GVA?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Los fondos recaudados se distribuyen de la siguiente manera:</p>
+                            
+                            <div class="funds-distribution">
+                                <div class="fund-item">
+                                    <span class="fund-percentage">45%</span>
+                                    <span class="fund-purpose">Atención veterinaria y medicamentos</span>
+                                </div>
+                                <div class="fund-item">
+                                    <span class="fund-percentage">25%</span>
+                                    <span class="fund-purpose">Alimentación y cuidado diario</span>
+                                </div>
+                                <div class="fund-item">
+                                    <span class="fund-percentage">15%</span>
+                                    <span class="fund-purpose">Mantenimiento de instalaciones</span>
+                                </div>
+                                <div class="fund-item">
+                                    <span class="fund-percentage">10%</span>
+                                    <span class="fund-purpose">Programas educativos y de concientización</span>
+                                </div>
+                                <div class="fund-item">
+                                    <span class="fund-percentage">5%</span>
+                                    <span class="fund-purpose">Gastos administrativos</span>
+                                </div>
+                            </div>
+                            
+                            <p>Somos transparentes con el uso de los recursos y publicamos reportes financieros trimestrales en nuestro sitio web. Todas las donaciones son auditadas y podemos proporcionar estados financieros detallados a los donantes que lo soliciten.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-cta">
+                    <h3>¿No encontraste tu pregunta?</h3>
+                    <p>Estamos aquí para ayudarte. Contáctanos directamente y te responderemos a la brevedad.</p>
+                    <div class="cta-buttons">
+                        <a href="contacto.html" class="btn primary">Contáctanos</a>
+                        <a href="catalogo.html" class="btn secondary">Ver Servicios</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GVA</h3>
+                    <p>Guardianas de la Vida Animal</p>
+                    <p>Asociación Civil comprometida con el bienestar animal</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="mision.html">Misión</a></li>
+                        <li><a href="vision.html">Visión</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: info@gva.org</p>
+                    <p>Teléfono: +52 33 1234 5678</p>
+                    <p>Zona Metropolitana de Guadalajara</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GVA - Guardianas de la Vida Animal. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
