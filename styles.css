@@ -1438,6 +1438,12 @@ mission-statement h2 {
 
 /* Responsive */
 @media (max-width: 768px) {
+
+    .quality-video {
+        width: 100%;
+        height: auto;
+    }
+
     .location-content,
     .contact-content {
         grid-template-columns: 1fr;
