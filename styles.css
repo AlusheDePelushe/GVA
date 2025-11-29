@@ -714,6 +714,7 @@ mission-statement h2 {
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
+
 .quality-video {
     display: block;
     margin: 0 auto;
@@ -722,6 +723,7 @@ mission-statement h2 {
     display: block;
     border-radius: 10px; /* opcional */
 }
+
 .policies-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
